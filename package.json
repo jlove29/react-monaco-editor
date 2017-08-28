@@ -1,8 +1,12 @@
 {
-  "name": "react-monaco-editor",
-  "version": "0.10.0",
-  "description": "Monaco Editor for React",
+  "name": "react-monaco-editor-plus",
+  "version": "1.0.0",
+  "description": "specialized editor for use in modified vega/-lite visualization editor found at github.com/jlove29/vega-editor",
   "main": "lib/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
   "files": [
     "lib"
   ],
@@ -12,6 +16,10 @@
     "clean": "rimraf lib dist coverage",
     "lint": "eslint src",
     "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlove29/react-monaco-editor.git"
   },
   "babel": {
     "presets": [
@@ -26,15 +34,12 @@
     "react",
     "vscode"
   ],
-  "authors": [
-    "Leon Shi <superRaytin@gmail.com>"
-  ],
-  "license": "MIT",
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/superRaytin/react-monaco-editor/issues"
+    "url": "https://github.com/jlove29/react-monaco-editor/issues"
   },
-  "homepage": "https://github.com/superRaytin/react-monaco-editor",
-  "repository": "https://github.com/superRaytin/react-monaco-editor",
+  "homepage": "https://github.com/jlove29/react-monaco-editor#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-core": "^6.10.4",
