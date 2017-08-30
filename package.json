@@ -61,7 +61,7 @@
     "react": "15.x"
   },
   "dependencies": {
-    "monaco-editor": "^0.9.0",
+    "monaco-editor-plus": "^1.0.2",
     "prop-types": "^15.5.10"
   },
   "pre-commit": [
