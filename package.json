@@ -1,6 +1,6 @@
 {
   "name": "react-monaco-editor-plus",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "specialized editor for use in modified vega/-lite visualization editor found at github.com/jlove29/vega-editor",
   "main": "lib/index.js",
   "directories": {
